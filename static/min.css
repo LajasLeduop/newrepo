@@ -1,0 +1,197 @@
+/* homepage css */
+/* Custom CSS for university homepage */
+ /* Custom CSS variables */
+:root {
+    --background-color-dark: hsla(0, 0%, 100%, 0.507);
+    --background-color-light:hsla(0, 0%, 100%, 0.925);
+    --primary-text: hsla(240, 100%, 100%, 0.9);
+    --primary-color: hsla(240, 63%, 35%, 0.897);
+    --secondary-color: hsla(29, 97%, 49%, 0.918);
+    
+
+  }
+/* Banner section */
+.banner {
+    /* background-image: url('https://saralnotes.com/wp-content/uploads/2019/10/Tribhunvan-University.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--primary-text);
+    
+  }
+ 
+  .university-motto {
+    background: hsla(0, 0%, 100%, 0.884);
+    color: var(--primary-color);
+    font-size: 48px;
+    text-align: center;
+    z-index:2;
+  }
+  
+  /* Insights section */
+  .insights {
+    padding: 50px 0;
+    background-color:var(--background-color-light);
+  }
+  .insights img{
+    height:200px;
+  }
+  .insights .row .col-md-4{
+    margin-bottom:0.8rem;
+  }
+  
+  /* Director's message section */
+  .director-message {
+    padding: 50px 0;
+    background-color:var(--background-color-light);
+  }
+  
+  .director-message h2 {
+    color: var(--primary-color);
+  }
+  
+  .director-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-blend-mode: lighten;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color:var(--secondary-color);
+  }
+ 
+ 
+  
+/* End of homepage css   */
+
+
+
+/* header css */
+/* Custom CSS for university header */
+
+.navbar {
+    background-color: var(--background-color-light);
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    width: auto;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .nav-link {
+    color: var(--secondary-color) !important;
+    font-weight:bold;
+  }
+ 
+  
+  .dropdown-menu {
+    background-color: var(--background-color-dark);
+  }
+  
+  .dropdown-item {
+    color: var(--primary-color) !important;
+  }
+  .dropdown-item:hover{
+    color: var(--secondary-color);
+  }
+/* end of header css   */
+
+
+
+/* footer css */
+ 
+  footer {
+    background-color: var(--primary-color);
+    padding: 40px 0;
+    color: var(--primary-text);
+   
+  }
+  
+  footer h4 {
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  footer .nolist{
+    list-style-type: none;
+  }
+  footer a {
+    color: var(--primary-text);
+    text-decoration:none;
+    
+    
+    }
+    footer a:hover{
+      color:var(--secondary-color);
+    }
+    footer .btn{
+      color:var(--primary-text);
+      margin-bottom:2rem;
+      
+    }
+   footer .btn:hover{
+    color:var(--secondary-color);
+   }
+  .social-icons a {
+    margin-right: 1.5rem;
+    color: var(--primary-text);
+    font-size: 18px;
+    
+  }
+  
+  @media (max-width: 767px) {
+    footer .row > div:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+/* end of footer css   */
+
+
+/* test */
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+#video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  
+}
+
+#who-we-are p{
+  margin-left:1rem;
+  margin-bottom:1rem;
+  padding: 5rem, 1rem, 3rem, 4rem;
+}
+
+#who-we-are{
+background-color:hsla(0, 0%, 0%, 0.01);
+}
